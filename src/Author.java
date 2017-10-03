@@ -20,6 +20,7 @@ public class Author extends Person {
         return books;
     }
 
+    @SuppressWarnings("unchecked")
     public List<String> publishedBooks() {
         return books;
     }
